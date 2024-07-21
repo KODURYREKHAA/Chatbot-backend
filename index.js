@@ -24,7 +24,7 @@ app.use(cors());
 
 // MongoDB connection
 mongoose
-  .connect(process.env.MONGODB_URI, {
+    .connect("mongodb+srv://KRekha:Rekha9381@cluster0.wf9qug0.mongodb.net/Chatbot?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
